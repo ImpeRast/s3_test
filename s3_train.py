@@ -49,7 +49,7 @@ def list_parquet_csv_files(bucket_name, prefix='', region_name='us-west-2', suff
 # Использование:
 bucket_name = 'ai2-public-datasets'  # имя бакета
 prefix = ''  # нужный префикс (или пустой для корня бакета)
-region_name = 'us-west-2' # Замените регион, если необходимо
+region_name = 'us-west-2'
 
 # Создаем "фиктивные" переменные окружения, чтобы boto3 не пытался искать ключи доступа
 os.environ['AWS_ACCESS_KEY_ID'] = 'testing'
